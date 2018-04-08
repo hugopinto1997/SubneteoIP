@@ -85,30 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else{
                     if(n5==0){
-                        b1 = n1 & 0;
-                        b2 = n2 & 0;
-                        b3 = n3 & 0;
-                        b4 = n4 & 0;
-
-                        ntid.setText(b1+"."+b2+"."+b3+"."+b4);
-
-                        b1 = n1 | 255;
-                        b2 = n2 | 255;
-                        b3 = n3 | 255;
-                        b4 = n4 | 255;
-
-                        brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
-
-                        cantidadip=(int)Math.pow(2,32);
-                        cantidadip=cantidadip-2;
-
-                        cip.setText(cantidadip+"");
-
-
-                        prtrd.setText("-");
-                        prthst.setText(n1+"."+n2+"."+n3+"."+n4);
-
-
+                        Toast.makeText(getApplicationContext(),"Máscara invalida",Toast.LENGTH_SHORT).show();
 
                     }
                     if(n5==1){
@@ -148,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 191;
+                        b1 = n1 | 63;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -177,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 223;
+                        b1 = n1 | 31;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -206,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 239;
+                        b1 = n1 | 15;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -235,7 +212,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 247;
+                        b1 = n1 | 7;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -264,7 +241,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 251;
+                        b1 = n1 | 3;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -293,7 +270,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 253;
+                        b1 = n1 | 1;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -378,7 +355,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 191;
+                        b2 = n2 | 63;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -405,7 +382,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 223;
+                        b2 = n2 | 31;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -432,7 +409,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 239;
+                        b2 = n2 | 15;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -459,7 +436,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 247;
+                        b2 = n2 | 7;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -486,7 +463,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 251;
+                        b2 = n2 | 3;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -506,14 +483,14 @@ public class MainActivity extends AppCompatActivity {
                     }
                     if(n5==15){
                         b1 = n1 & 255;
-                        b2 = n2 & 254;
+                        b2 = n2 & 255;
                         b3 = n3 & 0;
                         b4 = n4 & 0;
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 253;
+                        b2 = n2 | 1;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -595,7 +572,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 191;
+                        b3 = n3 | 63;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -622,7 +599,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 223;
+                        b3 = n3 | 31;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -649,7 +626,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 239;
+                        b3 = n3 | 15;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -676,7 +653,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 247;
+                        b3 = n3 | 7;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -703,7 +680,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 251;
+                        b3 = n3 | 3;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -730,7 +707,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 253;
+                        b3 = n3 | 1;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -797,7 +774,7 @@ public class MainActivity extends AppCompatActivity {
                         aux1=n4 & 128;
                         aux2=n4 & 127;
 
-                        prtrd.setText(n1+"."+n2+"."+aux1+"");
+                        prtrd.setText(n1+"."+n2+"."+n3+"."+aux1+"");
                         prthst.setText(aux2+"");
 
                     }
@@ -812,7 +789,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 191;
+                        b4 = n4 | 63;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -824,7 +801,7 @@ public class MainActivity extends AppCompatActivity {
                         aux1=n4 & 192;
                         aux2=n4 & 63;
 
-                        prtrd.setText(n1+"."+n2+"."+aux1+"");
+                        prtrd.setText(n1+"."+n2+"."+n3+"."+aux1+"");
                         prthst.setText(aux2+"");
 
                     }
@@ -839,7 +816,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 223;
+                        b4 = n4 | 31;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -851,7 +828,7 @@ public class MainActivity extends AppCompatActivity {
                         aux1=n4 & 224;
                         aux2=n4 & 31;
 
-                        prtrd.setText(n1+"."+n2+"."+aux1+"");
+                        prtrd.setText(n1+"."+n2+"."+n3+"."+aux1+"");
                         prthst.setText(aux2+"");
 
                     }
@@ -866,7 +843,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 239;
+                        b4 = n4 | 15;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -878,7 +855,7 @@ public class MainActivity extends AppCompatActivity {
                         aux1=n4 & 240;
                         aux2=n4 & 15;
 
-                        prtrd.setText(n1+"."+n2+"."+aux1+"");
+                        prtrd.setText(n1+"."+n2+"."+n3+"."+aux1+"");
                         prthst.setText(aux2+"");
 
                     }
@@ -893,7 +870,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 247;
+                        b4 = n4 | 7;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -905,7 +882,7 @@ public class MainActivity extends AppCompatActivity {
                         aux1=n4 & 248;
                         aux2=n4 & 7;
 
-                        prtrd.setText(n1+"."+n2+"."+aux1+"");
+                        prtrd.setText(n1+"."+n2+"."+n3+"."+aux1+"");
                         prthst.setText(aux2+"");
 
                     }
@@ -920,7 +897,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 251;
+                        b4 = n4 | 3;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -932,7 +909,7 @@ public class MainActivity extends AppCompatActivity {
                         aux1=n4 & 252;
                         aux2=n4 & 3;
 
-                        prtrd.setText(n1+"."+n2+"."+aux1+"");
+                        prtrd.setText(n1+"."+n2+"."+n3+"."+aux1+"");
                         prthst.setText(aux2+"");
 
                     }
@@ -948,7 +925,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 253;
+                        b4 = n4 | 1;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -960,7 +937,7 @@ public class MainActivity extends AppCompatActivity {
                         aux1=n4 & 254;
                         aux2=n4 & 1;
 
-                        prtrd.setText(n1+"."+n2+"."+aux1+"");
+                        prtrd.setText(n1+"."+n2+"."+n3+"."+aux1+"");
                         prthst.setText(aux2+"");
 
                     }
@@ -985,7 +962,7 @@ public class MainActivity extends AppCompatActivity {
                         cip.setText(cantidadip+"");
 
 
-                        prtrd.setText(n1+"."+n2+"."+n3+"."+n4);
+                        prtrd.setText("-");
                         prthst.setText("-");
 
                     }
