@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 64;
+                        b1 = n1 | 127;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 32;
+                        b1 = n1 | 191;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 16;
+                        b1 = n1 | 223;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 8;
+                        b1 = n1 | 239;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 4;
+                        b1 = n1 | 247;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -264,7 +264,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 2;
+                        b1 = n1 | 251;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -293,7 +293,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 1;
+                        b1 = n1 | 253;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -378,7 +378,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 32;
+                        b2 = n2 | 191;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
